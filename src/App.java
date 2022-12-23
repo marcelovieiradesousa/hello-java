@@ -28,6 +28,9 @@ public class App {
             Tipos e Variaveis
              Tipos: estilos de representação de valores. String, byte, short, int, long(L no final do valor atribuído), float(F no final do valor atribuído) e double. Padroes de valores numeiros para o Java são int para inteiro e double para decimais.
              Variáveis: são nomedas com referencia a um endereço de memoria. Podem ser alteradas após atribuir o valor se na declaração não estiver 'final' antes do tipo. Sintaxe: <tipo> <nome> = <valor?>
+
+            Operadores
+             Simbolos especiais que trabalham em prol de uma funcionalidade. Existem 6: Atribuição(=), Artiméticos(barra, asterisco, mais, menos, porcentagem), Relacionais(==, => >, =<, <), Lógicos(||, &&), Unários(+, -, --, ++, !) e Ternario(<expressao>?<verdadeiro>:<falso>).
          * 
          */
     }

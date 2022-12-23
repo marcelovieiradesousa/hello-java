@@ -1,6 +1,8 @@
 package edu.marcelo.sintaxe;
 
 public class TipoEVariaveis {
+  //Material de Estudo
+  //https://felipe-silva-aguiar.gitbook.io/dio-java/gitbook/sintaxe/variaveis
   public static void main(String[] args) throws Exception {
     double salarioMinimo = 2500;
     short numeroCurto = 1;

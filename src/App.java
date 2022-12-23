@@ -32,8 +32,8 @@ public class App {
             Operadores
              Simbolos especiais que trabalham em prol de uma funcionalidade. Existem 6: Atribuição(=), Artiméticos(barra, asterisco, mais, menos, porcentagem), Relacionais(==, => >, =<, <), Lógicos(||, &&), Unários(+, -, --, ++, !) e Ternario(<expressao>?<verdadeiro>:<falso>).
 
-             Metodo
-             Membos de uma classe que possuem funcionalidades para executar uma ou mais ações para o objeto. Escritas no infitivo e de responsabilidade unitária.
+             Métodos
+             Membros de uma classe que possuem funcionalidades para executar uma ou mais ações para o objeto. Escritas no infitivo e de responsabilidade unitária.
          * 
          */
     }

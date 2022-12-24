@@ -31,6 +31,9 @@ public class App {
 
             Operadores
              Simbolos especiais que trabalham em prol de uma funcionalidade. Existem 6: Atribuição(=), Artiméticos(barra, asterisco, mais, menos, porcentagem), Relacionais(==, => >, =<, <), Lógicos(||, &&), Unários(+, -, --, ++, !) e Ternario(<expressao>?<verdadeiro>:<falso>).
+             a partir de uma linha seuqencial de op. matematicas + string, o depurador pausa a operação matematica e passa a concatenar. Valor negativo para positivo: n = n * -1
+             ⚠ ++n e n++. A ordem importa no momento de compilação. equals() serve para comparar o literal de String
+
 
              Métodos
              Membros de uma classe que possuem funcionalidades para executar uma ou mais ações para o objeto. Escritas no infitivo e de responsabilidade unitária.

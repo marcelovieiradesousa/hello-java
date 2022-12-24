@@ -32,11 +32,11 @@ public static void main(String[] args) {
     int canalNaoAlterado = tvGaragem.canal;
 
     tvGaragem.alterarCanal(canal2);
-    int [] resultadoPossivel = {2, 8};
+    int [] resultadosEsperados = {2, 8};
     
 
     for(int x = 0; x < 2; x++){
-      if(resultadoPossivel[x] == tvGaragem.canal){
+      if(resultadosEsperados[x] == tvGaragem.canal){
         System.out.println( "Teste alterarCanal() OK!");
       }
     }

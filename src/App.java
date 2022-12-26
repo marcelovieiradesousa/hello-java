@@ -39,6 +39,15 @@ public class App {
 
              Escopo
               O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
+
+             Palavras reservadas
+              palavras que a linguagem separou para alguma funcionalidade ou representação de algo.
+
+             Java Doc
+              Documentação para a linguagem Java. Forma de salientar o que representa os códigos escritos ou explicar o funcionamento de uma classe por meio de palavras em idioma humano.
+
+             Terminal e Argumentos
+              a pasta Bin guarda os bytecodes das class. Podemos executar os programas via terminal com o comando 'Java'.
          * 
          */
     }

@@ -13,10 +13,11 @@ public class Ex5_Tabuada {
     System.out.println("Digite um fatorial: ");
     int fat = scanner.nextInt();
     int result = 1;
+    System.out.print(fat + "! = ");
     while(fat > 1){
       result = result * fat;
       --fat; 
     }
-    System.out.println("resultado: " + result);
+    System.out.print(result);
   }
 }

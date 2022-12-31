@@ -18,7 +18,6 @@ public class Saudacao {
         break;
       
     }
-    System.out.println(horaAgora.getHour());
   }
   public static void main(String[] args) {
     momentoSaudacao();

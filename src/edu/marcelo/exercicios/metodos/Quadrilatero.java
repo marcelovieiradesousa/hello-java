@@ -7,9 +7,9 @@ public class Quadrilatero {
    * <p>
    * Assinatura: {@code area(double lado)}
    */
-  public static void area(double lado) {
+  public static double area(double lado) {
 
-    System.out.println("Área do Quadrado: " + lado * lado);
+    return (lado * lado);
   }
 
   /**
@@ -18,8 +18,8 @@ public class Quadrilatero {
    * <p>
    * Assinatura: {@code area(double lado, double lado)}
    */
-  public static void area(double lado1, double lado2) {
-    System.out.println("Área do Retângulo: " + lado2 * lado2);
+  public static double area(double lado1, double lado2) {
+    return (lado2 * lado2);
   }
 
   /**
@@ -29,8 +29,8 @@ public class Quadrilatero {
    * <p>
    * Assinatura: {@code area(double baseMaior, double baseMenor, double altura)}
    */
-  public static void area(double baseMaior, double baseMenor, double altura) {
-    System.out.println("Área do Trapézio: " + ((baseMaior + baseMenor) * altura) / 2);
+  public static double area(double baseMaior, double baseMenor, double altura) {
+    return (((baseMaior + baseMenor) * altura) / 2);
   }
 
   /**
@@ -39,14 +39,23 @@ public class Quadrilatero {
    * <p>
    * Assinatura: {@code area(float diagonal1, float diagonal2)}
    */
-  public static void area(float diagonal1, float diagonal2) {
-    System.out.println("Área do Losango: " + (diagonal1 * diagonal2) / 2);
+  public static float area(float diagonal1, float diagonal2) {
+    return ((diagonal1 * diagonal2) / 2);
   }
 
   public static void main(String[] args) {
-    Quadrilatero.area(5);
-    Quadrilatero.area(5d, 4d);
-    Quadrilatero.area(10, 15, 20);
-    Quadrilatero.area(5f, 7f);
+    //Retornos
+    /*
+     Retornos são tipos de dados definidos no método semelhantes aos valores inseridos após a key-word 'return'
+     */
+    double areaQuadrado = Quadrilatero.area(5);
+    double areaRetangulo = Quadrilatero.area(5d, 4d);
+    double areaTrapezio = Quadrilatero.area(10, 15, 20);
+    float areaLosango = Quadrilatero.area(5f, 7f);
+
+    System.out.println("Área do Quadrado: " + areaQuadrado);
+    System.out.println("Área do Retângulo: " + areaRetangulo);
+    System.out.println("Área do Trapézio: " + areaTrapezio);
+    System.out.println("Área do Losango: " + areaLosango);
   }
 }

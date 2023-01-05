@@ -1,11 +1,19 @@
 package edu.marcelo.exercicios.classes;
-
-public class Carro {
+public class Carro extends Veiculo{
+  //Attributes
   String cor;
   String modelo;
   int capacidadeTanque;
 
-  //Construtor
+  //Constructors
+  Carro(){}
+  Carro(String cor, String modelo, int capTanque){
+    this.cor = cor;
+    this.modelo = modelo;
+    this.capacidadeTanque = capTanque;
+  }
+
+  //Methods
   void setCor(String cor){
     this.cor = cor;
   }
@@ -24,8 +32,22 @@ public class Carro {
   public int getCapacidadeTanque() {
     return capacidadeTanque;
   }
-
+  
   double totalValorTanque(double valorCombustivel){
     return capacidadeTanque * valorCombustivel;
+  }
+
+  public static void main(String[] args) {
+    Carro carrin = new Carro();
+    carrin.setCor("Amarelo");
+    carrin.setModelo("Fiat Uno");
+    carrin.setCapacidadeTanque(120);
+
+    double valorTanqueCheio = carrin.totalValorTanque(4.98);
+
+    //Upcast
+    Veiculo up = new Carro("vermelho", "Jaguar", 50);
+    //Downcast
+    //Carro down = (Carro) new Veiculo(); Error: java.lang.ClassCastException:
   }
 }

@@ -48,6 +48,44 @@ public class App {
 
              Terminal e Argumentos
               a pasta Bin guarda os bytecodes das class. Podemos executar os programas via terminal com o comando 'Java'.
+
+
+            COLLECTIONS FRAMEWORk
+             → Fundamentos: Objeto que agrupa um conjunto de elementos (variaveis primitivas e objetos).
+             → Finalidade: Armazenar e processar dados.
+             • Composição:
+                - Interfaces;
+                - Classes ou Implementações;
+                - Algoritmo; 
+             • Hierarquia: <https://www.codejava.net/java-core/collections/java-map-collection-tutorial-and-examples>
+                - List: ordenada; -> ArrayList e LinkedList.
+                - Set: não repetitivo; -> HashSet, LinkedHashSet e TreeSet.
+                - Map: pares; -> HashSet, LinkedHashSet e TreeSet.
+                - Queue: fila de processamento (PEPS); ->  Deque, BlockingDeque, BlockingQueue e TransferQueue.
+            https://drive.google.com/file/d/1kaAIEkaTt3q1rof6OFOb5XVgf25IDXf7/view
+
+             List
+                1. Características da interface List
+                   → Duplicados e Ordem de inserção
+                2. Como e quando utilizar ArrayList e LinkedList
+                   - Pesquisa: ArrayList
+                   - Operações I/O: LinkedLis
+                3. Conhecer os principais métodos
+                    boolean add(int index, E)
+                    boolean addAll(int index,
+                    void clear()
+                    boolean contains(Object o)
+                    boolean containsAll(Collection c)
+                    E get(int index)
+                    int indexOf(Object)
+                    int lastlndexOf(Object)
+                    E remove(int index)
+                    E set(int index, E)
+                    Iterator<E> iterator()
+                    Listlterator<E> listlterator()
+                    List<E> subList(int fromlndex, int tolndex)
+                    int size()
+                    boolean isEmpty()
          * 
          */
     }

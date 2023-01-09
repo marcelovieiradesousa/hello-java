@@ -3,7 +3,7 @@ package edu.marcelo.collections.set;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class ConjuntoComparador {
+public class SetTreeSet {
   // TreeSet necessita do Comparetor para o toString
   public static void main(String[] args) {
     Game jogo1 = new Game("Def Jam Fight NY", 18, false);

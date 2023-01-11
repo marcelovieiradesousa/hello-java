@@ -35,16 +35,16 @@ public class Game implements Comparable<Game> {
 
     /**
    * <p>
-   * Ordem de comparação: {@code singlePlayer} > {@code mature} > {@code name}
+   * Ordem de comparação: {@code mature} > {@code singlePlayer} > {@code name}
    */
   @Override
   public int compareTo(Game o) {
+    int compareMature = Integer.compare(this.mature, o.mature);
+    if(compareMature != 0) return compareMature;
     
     int compareSinglePlayer = Boolean.compare(this.singlePlayer, o.singlePlayer);
     if(compareSinglePlayer != 0) return compareSinglePlayer;
 
-    int compareMature = Integer.compare(this.mature, o.mature);
-    if(compareMature != 0) return compareMature;
 
     int compareName = this.name.compareToIgnoreCase(o.getName());
     return compareName;

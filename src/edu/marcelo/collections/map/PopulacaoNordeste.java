@@ -43,6 +43,6 @@ public class PopulacaoNordeste {
     regiaoNordeste.put("PB", 4039277);
 
     System.out.println("Exiba a população PE");
-    System.out.println(regiaoNordeste.get("PB"));
+    System.out.println(regiaoNordeste.get("PE"));
   }
 }
